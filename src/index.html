@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mercedes-Benz.io Challenge for Frontend Developers</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/javascript" src="index.js"></script>
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="container d-flex justify-content-between">
+            <div class="pl-0 py-3">
+                <a title="Mercedes Benz" href="/" class="logo__link d-flex flex-row  align-items-end">
+                    <img alt="Mercedes Benz Logo" title="Mercedes Benz Logo" src="assets/mb-star.svg" class="logo__icon align-self-start" />
+                    <img alt="Mercedes-Benz Brandmark" title="Mercedes Benz Logo" src="assets/mb-wordmark.svg" class="logo__brandmark ml-auto" />
+                </a>
+            </div>
+            <div class="pr-0 py-3 d-flex align-items-end">
+                <a href="#" title="Show Cart" class="cart-link"><span id="cart-total">59.000,00&nbsp;€</span>
+                    <img alt="Shopping" title="Shopping Bag" src="assets/shoppingBag.png" class="shopping-bag__icon align-self-end" />
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="d-flex py-3 justify-content-between" id="vehicles-header">
+                <h1>Cars in Stock</h1>
+                <form id="vehicles-search">
+                    <input type="search" name="q" id="search-query" placeholder="type to search..." />
+                </form>
+            </div>
+            <div class="row" id="vehicles-container">
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+
+</body>
+
+</html>
